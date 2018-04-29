@@ -1,0 +1,17 @@
+{
+  "name": "log fold change",
+  "description": "log fold change",
+  "tags": ["simple statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/logfoldchange_operator"],
+  "properties": [
+  {
+    "kind": "BooleanProperty",
+    "name": "reverse",
+    "defaultValue": false,
+    "description": "A logical variable indicating whether to reverse the x-axis order of the data. If TRUE then it reverses."
+  }
+  ]
+}
+
+
