@@ -25,5 +25,5 @@ A `logfoldchange` operation is performed per cell. Each cell has values defined 
 #### References
 
 ##### See Also
-[ratio](https://github.com/tercen/ratio_operator),[foldchange](https://github.com/tercen/logfoldchange_operator)
+[ratio](https://github.com/tercen/ratio_operator),[foldchange](https://github.com/tercen/foldchange_operator)
 #### Examples
