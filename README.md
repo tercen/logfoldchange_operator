@@ -1,16 +1,29 @@
-# FoldChange : Log Fold change
+# logfoldchange operator
 
-Caculates log fold change
+#### Description
+`logfoldchange` operator performs a fold change (i.e. ratio) caculation between two values.
 
-# Repository
-```
-https://github.com/tercen/logfoldchange_operator.git
-```
+##### Usage
+Input projection|.
+---|---
+`x-axis`  | contains the grouping factor for the log2 fold change calculation, 
+`y-axis` | values
 
-# Feedback
+Input parameter|.
+---|---
+`reverse`  | logical, to reverse the calculation, default is `FALSE`
 
-* Log feedback/issues at (https://github.com/tercen/logfoldchange_operator/issues)
 
-# Documentation
+Output relations|.
+---|---
+`logfoldchange`| numeric, calculated per cell
 
-* see doc directory
+##### Details
+A `logfoldchange` operation is performed per cell. Each cell has values defined by the y-axis and seperated by the x-axis. The result of the logfoldchange is the log2 values where of the first is substrated by the second. If reverse is selected then the order of the substraction is changed.
+
+
+#### References
+
+##### See Also
+[ratio](https://github.com/tercen/ratio_operator),[foldchange](https://github.com/tercen/logfoldchange_operator)
+#### Examples
