@@ -16,7 +16,7 @@ Input parameter|.
 
 Output relations|.
 ---|---
-`logfoldchange`| numeric, calculated per cell
+`logFC`| numeric, logfoldchange calculated per cell
 
 ##### Details
 A `logfoldchange` operation is performed per cell. Each cell has values defined by the y-axis and seperated by the x-axis. The result of the logfoldchange is the log2 values where of the first is substrated by the second. If reverse is selected then the order of the substraction is changed.
