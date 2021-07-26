@@ -1,6 +1,6 @@
 {
-  "name": "log fold change",
-  "description": "log fold change",
+  "name": "Log 2-Fold Change",
+  "description": "Calculates the log ratio of a measurement in two different conditions",
   "tags": ["simple statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/logfoldchange_operator"],
