@@ -1,6 +1,6 @@
 {
-  "name": "Log 2-Fold Change",
-  "description": "Calculates the log ratio of a measurement in two different conditions",
+  "name": "Log2 Fold Change",
+  "description": "Calculates the log ratio of a measurement in two different conditions.",
   "tags": [
     "preprocessing",
     "transformation",
